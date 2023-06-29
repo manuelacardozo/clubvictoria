@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url("https://use.typekit.net/kri1dxm.css");
+
+/*  font-family: 'Rubik', sans-serif;
+    font-family: "obviously", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "obviously", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "obviously", sans-serif;
+    font-weight: 800;
+    font-style: normal; */
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.navbar {
+    background-color: #0071bc;
+    justify-content: space-around;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar ul li a {
+    color: #ffff;
+    font-family: obviously;
+    font-size: 500;
+    text-transform: uppercase;
+    background-color: #0071bc;
+}
+
+.nav-item :hover {
+    background-color: #ffff;
+    text-decoration: none;
+    color: #0071bc;
+}
+
+.bannerinicio {
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+
+.contenedor {
+    width: 80%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    background-color: #0071bc;
+}
+
+.card-text {
+    font-family: rubik;
+    color: #FFFF;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: black;
+    color: #FFFF;
+    font-family: rubik;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding-top: 5px auto 5px 10px;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+
+.asociate h3{
+    font-family: rubik;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.asociate p{
+    font-family: rubik;
+    font-size: 18px;
+}
+
+.FotoSocio{
+    background-image: url(imágenes/asociate.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.table{
+    font-family: rubik;
+    color: #ffff;
+    background-color: #0071bc;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.FooterBarra {
+    background-color: black;
+    color: white;
+    font-family: rubik;
+    font-weight: 100;
+    padding: 1px 0 10px 10px;
+}
+
+.FooterBarra .container{
+    margin-top: 10px;
+}
+
+.iconos {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 25px;
+    margin-left: 290px;
+
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 80%;
+    color: #ffff;
+    text-decoration: none;
+}
+
+a{
+    color:#FFFF;
+    font-family: rubik;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color:#0071bc;
+}
+
+@media only screen and (max-width:350px) {
+    .bannerinicio {
+        display: none;
+    }
+    .iconos{
+        margin-left: 120px;
+    }
+
+    .table{
+        margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .bannerinicio {
+        display: none;
+    }
+    .iconos{
+        margin-left: 120px;
+    }
+    .asociate{
+        margin-left: 10px;
+    }
+    .table{
+        margin-top: 80px;
+    }
+}
