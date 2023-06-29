@@ -102,6 +102,26 @@
     margin-top: 150px;
 }
 
+.ProxPartidos{
+    background-color: #0071bc;
+    font-family: rubik;
+    font-weight: 500;
+    color: #FFFF;
+    text-transform: uppercase;
+    padding: 1% 0 0.5% 0;
+    text-align: center;
+}
+
+.partidos{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-responsive{
+    width: 70%;
+}
+
 .FooterBarra {
     background-color: black;
     color: white;
